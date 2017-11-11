@@ -1,0 +1,53 @@
+.document{
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    }
+/****************************** NAVIGATION BAR **********************/
+#nav{
+    background-color: rgb(43, 41, 41);
+    height: 100%;
+    /* width: 25%; */
+    color: rgb(65, 63, 63);
+}
+@media only screen and (max-width:500px) {
+    /* .nav{
+        width: 90%;
+    } */
+}
+#menubutton{
+    float:right;
+    width :40px;
+    
+}
+.menubuttoncontainer{
+    width: 100%;
+    height: 2em;
+}
+.menu{
+    width :28px;
+    height: 4px;
+    margin: 6px;
+    background-color: rgb(196, 189, 189);
+}
+#nav img{
+    width: 2.5em;
+    height: 2.5em;
+}
+#nav .icons .icon-element{
+    overflow: hidden;
+    margin-top: 1em;
+
+}
+.icon-list{
+    list-style: none;   
+    padding: 0px;
+    margin: 0px;    
+}
+/****************************** MAIN CONTENT **********************/
+#main-content{
+    background-color: rgb(155, 155, 39);
+    width: 90%;
+    height: 100%;
+}
+
